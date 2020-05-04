@@ -1,0 +1,12 @@
+name SuperMan (For Elytras)
+
+use left_arm
+use right_arm
+
+animation parallel
+	section parallel
+		move right_arm_x 250 -3.14
+		move left_arm_x 250 -3.14
+		end
+		pause 10000
+end

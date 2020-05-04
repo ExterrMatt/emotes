@@ -1,0 +1,10 @@
+name Still Arms
+
+use left_arm
+use right_arm
+
+animation sequence
+	move right_arm_x 1000 0
+	move left_arm_x 1000 0
+	pause 5000
+end

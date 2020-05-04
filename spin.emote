@@ -1,0 +1,117 @@
+name Head Spinner
+
+use left_arm
+use right_arm
+use head
+
+animation sequence
+	section parallel
+		move right_arm_x 500 -2.75
+		move left_arm_x 500 -3.75
+		pause 500
+		end
+	section parallel
+		move right_arm_x 500 -3.75
+		move left_arm_x 500 -2.75
+		move head_y 500 0.79
+		pause 500
+		end
+	section parallel
+		move right_arm_z 250 -0.5 ease out_quart
+		move right_arm_x 250 -3.75 ease linear
+		move left_arm_z 250 0.5 ease out_quart
+		move left_arm_x 250 -2.75 ease linear
+		end
+	section parallel
+		move right_arm_z 250 0 ease in_quart
+		move right_arm_x 250 -2.75 ease linear
+		move left_arm_z 250 0 ease in_quart
+		move left_arm_x 250 -3.75 ease linear
+		end	
+	section parallel
+		move right_arm_x 500 -2.75
+		move left_arm_x 500 -3.75
+		pause 500
+		end
+		
+		
+		
+	section parallel
+		move right_arm_x 500 -3.75
+		move left_arm_x 500 -2.75
+		move head_y 500 1.57
+		pause 500
+		end
+	section parallel
+		move right_arm_z 250 -0.5 ease out_quart
+		move right_arm_x 250 -3.75 ease linear
+		move left_arm_z 250 0.5 ease out_quart
+		move left_arm_x 250 -2.75 ease linear
+		end
+	section parallel
+		move right_arm_z 250 0 ease in_quart
+		move right_arm_x 250 -2.75 ease linear
+		move left_arm_z 250 0 ease in_quart
+		move left_arm_x 250 -3.75 ease linear
+		end	
+	section parallel
+		move right_arm_x 500 -2.75
+		move left_arm_x 500 -3.75
+		pause 500
+		end
+		
+		
+		
+	section parallel
+		move right_arm_x 500 -3.75
+		move left_arm_x 500 -2.75
+		move head_y 500 2.36
+		pause 500
+		end
+	section parallel
+		move right_arm_z 250 -0.5 ease out_quart
+		move right_arm_x 250 -3.75 ease linear
+		move left_arm_z 250 0.5 ease out_quart
+		move left_arm_x 250 -2.75 ease linear
+		end
+	section parallel
+		move right_arm_z 250 0 ease in_quart
+		move right_arm_x 250 -2.75 ease linear
+		move left_arm_z 250 0 ease in_quart
+		move left_arm_x 250 -3.75 ease linear
+		end	
+	section parallel
+		move right_arm_x 500 -2.75
+		move left_arm_x 500 -3.75
+		pause 500
+		end
+		
+		
+		
+	section parallel
+		move right_arm_x 500 -3.75
+		move left_arm_x 500 -2.75
+		move head_y 500 3.14
+		pause 500
+		end
+	section parallel
+		move right_arm_z 350 -0.5 ease out_quart
+		move right_arm_x 350 -0.75 ease out_quart
+		move left_arm_z 350 0.5 ease out_quart
+		move left_arm_x 350 -5.75 ease out_quart
+		end
+		pause 750
+	section parallel
+		move right_arm_z 50 0 ease in_quart
+		move right_arm_x 50 -5.75 ease linear
+		move left_arm_z 50 0 ease in_quart
+		move left_arm_x 50 -0.75 ease linear
+		move right_arm_x 300 -6.28
+		move left_arm_x 300 0
+	section sequence
+		pause 150
+		move head_y 3000 37.68 ease out_quint
+		end
+		pause 250
+		
+end

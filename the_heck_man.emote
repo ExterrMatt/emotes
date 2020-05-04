@@ -1,0 +1,62 @@
+name The Heck Man!?
+
+use head
+use left_arm
+use right_arm
+
+animation sequence
+	section parallel
+		move head_x 100 -0.15
+		move head_y 100 -0.15
+		move left_arm_x 250 -1.90
+		move left_arm_y 250 -0.30		
+		move right_arm_x 250 -2.10
+		move right_arm_y 250 0.80
+		pause 900
+	end
+	section parallel
+		move head_x 100 -0.2
+		move head_y 100 0.45
+		pause 500
+	end
+	section parallel
+		move head_x 100 -0.10
+		move head_y 100 -0.30
+		move left_arm_x 250 -1.20
+		move left_arm_y 250 -0.70		
+		move right_arm_x 250 -1.40
+		move right_arm_y 250 0.40
+		pause 750
+	end	
+	section parallel
+		move head_x 100 -0.20
+		move head_y 100 -0.10
+		pause 550
+	end	
+	section parallel
+		move head_x 100 -0.15
+		move head_y 100 0.20
+		move left_arm_x 250 -2.90
+		move left_arm_y 250 -0.70		
+		move right_arm_x 250 -2.90
+		move right_arm_y 250 0.70
+		pause 750
+	end	
+	section parallel
+		move head_x 100 -0.15
+		move head_y 100 0.20
+
+		pause 750
+	end	
+	section parallel
+		move head_x 250 0
+		move head_y 250 0
+		move left_arm_x 500 -3.14
+		move left_arm_y 500 -3.14
+		move right_arm_x 500 -3.14
+		move left_arm_z 750 3.14 ease out_bounce
+		move right_arm_y 500 3.14
+		move right_arm_z 750 -3.14 ease out_bounce
+		pause 1500
+	end
+end
