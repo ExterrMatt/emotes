@@ -1,0 +1,220 @@
+Quark mod by u/Vazkii
+The emotes are by me, (u/exterrmatt)
+-------------------------------------------------------
+Head Spinner
+-------------------------------------------------------
+name Head Spinner
+
+use left_arm
+use right_arm
+use head
+
+animation sequence
+	section parallel
+		move right_arm_x 500 -2.75
+		move left_arm_x 500 -3.75
+		pause 500
+		end
+	section parallel
+		move right_arm_x 500 -3.75
+		move left_arm_x 500 -2.75
+		move head_y 500 0.79
+		pause 500
+		end
+	section parallel
+		move right_arm_z 250 -0.5 ease out_quart
+		move right_arm_x 250 -3.75 ease linear
+		move left_arm_z 250 0.5 ease out_quart
+		move left_arm_x 250 -2.75 ease linear
+		end
+	section parallel
+		move right_arm_z 250 0 ease in_quart
+		move right_arm_x 250 -2.75 ease linear
+		move left_arm_z 250 0 ease in_quart
+		move left_arm_x 250 -3.75 ease linear
+		end	
+	section parallel
+		move right_arm_x 500 -2.75
+		move left_arm_x 500 -3.75
+		pause 500
+		end
+		
+		
+		
+	section parallel
+		move right_arm_x 500 -3.75
+		move left_arm_x 500 -2.75
+		move head_y 500 1.57
+		pause 500
+		end
+	section parallel
+		move right_arm_z 250 -0.5 ease out_quart
+		move right_arm_x 250 -3.75 ease linear
+		move left_arm_z 250 0.5 ease out_quart
+		move left_arm_x 250 -2.75 ease linear
+		end
+	section parallel
+		move right_arm_z 250 0 ease in_quart
+		move right_arm_x 250 -2.75 ease linear
+		move left_arm_z 250 0 ease in_quart
+		move left_arm_x 250 -3.75 ease linear
+		end	
+	section parallel
+		move right_arm_x 500 -2.75
+		move left_arm_x 500 -3.75
+		pause 500
+		end
+		
+		
+		
+	section parallel
+		move right_arm_x 500 -3.75
+		move left_arm_x 500 -2.75
+		move head_y 500 2.36
+		pause 500
+		end
+	section parallel
+		move right_arm_z 250 -0.5 ease out_quart
+		move right_arm_x 250 -3.75 ease linear
+		move left_arm_z 250 0.5 ease out_quart
+		move left_arm_x 250 -2.75 ease linear
+		end
+	section parallel
+		move right_arm_z 250 0 ease in_quart
+		move right_arm_x 250 -2.75 ease linear
+		move left_arm_z 250 0 ease in_quart
+		move left_arm_x 250 -3.75 ease linear
+		end	
+	section parallel
+		move right_arm_x 500 -2.75
+		move left_arm_x 500 -3.75
+		pause 500
+		end
+		
+		
+		
+	section parallel
+		move right_arm_x 500 -3.75
+		move left_arm_x 500 -2.75
+		move head_y 500 3.14
+		pause 500
+		end
+	section parallel
+		move right_arm_z 350 -0.5 ease out_quart
+		move right_arm_x 350 -0.75 ease out_quart
+		move left_arm_z 350 0.5 ease out_quart
+		move left_arm_x 350 -5.75 ease out_quart
+		end
+		pause 750
+	section parallel
+		move right_arm_z 50 0 ease in_quart
+		move right_arm_x 50 -5.75 ease linear
+		move left_arm_z 50 0 ease in_quart
+		move left_arm_x 50 -0.75 ease linear
+		move right_arm_x 300 -6.28
+		move left_arm_x 300 0
+	section sequence
+		pause 150
+		move head_y 3000 37.68 ease out_quint
+		end
+		pause 250
+		
+end
+-------------------------------------------------------
+Still Arms
+-------------------------------------------------------
+name Still Arms
+
+use left_arm
+use right_arm
+
+animation sequence
+	move right_arm_x 1000 0
+	move left_arm_x 1000 0
+	pause 5000
+end
+-------------------------------------------------------
+Superman
+-------------------------------------------------------
+name SuperMan (For Elytras)
+
+use left_arm
+use right_arm
+
+animation parallel
+	section parallel
+		move right_arm_x 250 -3.14
+		move left_arm_x 250 -3.14
+		end
+		pause 10000
+end
+-------------------------------------------------------
+The Heck Man!?
+-------------------------------------------------------
+name The Heck Man!?
+
+use head
+use left_arm
+use right_arm
+
+animation sequence
+	section parallel
+		move head_x 100 -0.15
+		move head_y 100 -0.15
+		move left_arm_x 250 -1.90
+		move left_arm_y 250 -0.30		
+		move right_arm_x 250 -2.10
+		move right_arm_y 250 0.80
+		pause 900
+	end
+	section parallel
+		move head_x 100 -0.2
+		move head_y 100 0.45
+		pause 500
+	end
+	section parallel
+		move head_x 100 -0.10
+		move head_y 100 -0.30
+		move left_arm_x 250 -1.20
+		move left_arm_y 250 -0.70		
+		move right_arm_x 250 -1.40
+		move right_arm_y 250 0.40
+		pause 750
+	end	
+	section parallel
+		move head_x 100 -0.20
+		move head_y 100 -0.10
+		pause 550
+	end	
+	section parallel
+		move head_x 100 -0.15
+		move head_y 100 0.20
+		move left_arm_x 250 -2.90
+		move left_arm_y 250 -0.70		
+		move right_arm_x 250 -2.90
+		move right_arm_y 250 0.70
+		pause 750
+	end	
+	section parallel
+		move head_x 100 -0.15
+		move head_y 100 0.20
+
+		pause 750
+	end	
+	section parallel
+		move head_x 250 0
+		move head_y 250 0
+		move left_arm_x 500 -3.14
+		move left_arm_y 500 -3.14
+		move right_arm_x 500 -3.14
+		move left_arm_z 750 3.14 ease out_bounce
+		move right_arm_y 500 3.14
+		move right_arm_z 750 -3.14 ease out_bounce
+		pause 1500
+	end
+end
+-------------------------------------------------------
+No Tpose, support Vazkii (Creator of Quark Mod)
+https://www.patreon.com/Vazkii
+
+Thanks for the inspiration Vazkii. Also, if you can help me put the emotes on 1.15.2 please do! thanks :)
